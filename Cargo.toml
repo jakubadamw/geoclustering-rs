@@ -1,0 +1,16 @@
+[package]
+name = "geoclustering"
+description = "A command-line tool for clustering geolocations"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+csv = "1"
+itertools = "0.10"
+linfa = "0.6"
+linfa-clustering = "0.6"
+ndarray = "0.15"
+serde = { version = "1", features = ["derive"] }
+structopt = { version = "0.3", default-features = false }
+strum = { version = "0.24", features = ["derive"] }
